@@ -4,7 +4,7 @@
 
 The goal here is to model the probability that a business goes bankrupt from different features.since the variable to predict is binary (bankruptcy or non-bankruptcy).
 
-**Details of Dataset Features:**
+**Details of Dataset Features: 📁 Dataset Overview **
 
 * The data file contains 7 features about 250 companies including the following variables:
 * industrial_risk: 0=low risk, 0.5=medium risk, 1=high risk.
@@ -15,3 +15,23 @@ The goal here is to model the probability that a business goes bankrupt from dif
   competitiveness.
 * operating_risk: 0=low risk, 0.5=medium risk, 1=high risk.
 * class: bankruptcy, non-bankruptcy (target variable).
+
+**Approach:**
+* Data Cleaning & Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Encoding
+* Model Building (Logistic Regression, etc.)
+* Model Evaluation
+
+**⚙️ Tech Stack:**
+* Python 🐍
+* Pandas & NumPy
+* Scikit-learn
+* Matplotlib / Seaborn
+
+📊 Results:
+* Achieved accuracy of 99%
+* Key factors influencing bankruptcy:
+* Financial flexibility
+* Credibility
+* Management risk
